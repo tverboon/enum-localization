@@ -1,0 +1,16 @@
+﻿@model HomeModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+        </div>
+        <div class="form-group">
+            <select class="form-control" asp-for="Vegetable" asp-items="Html.GetEnumSelectList<Vegetable>()">
+            </select>
+        </div>
+    </div>
+</div>
