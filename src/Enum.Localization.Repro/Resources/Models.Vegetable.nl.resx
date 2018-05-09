@@ -117,8 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Name" xml:space="preserve">
-    <value>Naam</value>
+  <data name="Cauliflower" xml:space="preserve">å
+    <value>Bloemkool</value>
+    <comment></comment>
+  </data>
+  <data name="Spinach" xml:space="preserve">
+    <value>Spinazie</value>
+    <comment></comment>
+  </data>
+  <data name="Kale" xml:space="preserve">
+    <value>Boerenkool</value>
     <comment></comment>
   </data>
 </root>
